@@ -22,7 +22,8 @@ header{
 }
 .name{
     text-align: left;
-    color: darkgrey;    
+    color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .wd50{
     width: 50%;
@@ -47,6 +48,13 @@ header{
   background-color: red;
   font-family: 'Titillium Web', sans-serif;
   font-style: normal;
+}
+.location{
+    color: rgb(255, 255, 255);
+    font-style:italic, bold;
+    background-color: rgba(49, 47, 47, 0.925);
+    border-radius: 10%;
+    padding: 0 5px;
 }
 .about{
     background-color: #f44336;
@@ -149,7 +157,6 @@ footer{
 
     .container{
         display: flex;
-        margin: 0px;
         flex-wrap: wrap;
         background-color:rgba(49, 47, 47, 0.925);
         text-align: center;
