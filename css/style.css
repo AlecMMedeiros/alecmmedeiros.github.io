@@ -104,9 +104,9 @@ header{
 .container a:link, a:visited {
     display: inline-block;
     background-color: #f44336;
-    border-radius: 10%;
     color: white;
     padding: 0 14px;
+    text-decoration: none;
 
 }
 .container a:hover, a:active {
