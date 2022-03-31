@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,200&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
 <body>
-    <section></section>
-    <h1>Alecsandro Moura de Medeiros</h1>
-    <img src="./images/foto1.jpg" alt="Alecsandro's Photo" width="200px"></img>
-    <br>
-    <span><a href="#about"><em>About me</em></a></span>
-    <span><a href="#skills"><em>Skills</em></a></span>
-    <span><a href="#links"><em>Links</em></a></span>
-    <hr>
-    </section>
-    <!-- section 1 -->
-    <h2 id="about">About me:</h2>
+    <h1 class="title">Wellcome to my Portfolio!</h1> 
+    <header>                
+    <div class="wd50">        
+        <img class="myphoto" src="./images/foto1.jpg" alt="Alecsandro's Photo" width="200px"></img>
+        <h1 class="name">Alecsandro Moura de Medeiros</h1>
+    </div> 
+    <div class="wd50">
+        <div class="menu">
+            <a href="#aboutme">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#links">Links</a>
+        </div>
+    </div>
+    </header>
+    <!-- section About-->
+    <section class="about">
+    <h2 id="aboutme">About me:</h2>
     <p>Hi there!
     <br>
-    My name is Alecsandro, but you can call me <em>Alec</em>.
+    My name is Alecsandro, but you can call me <em><strong>Alec</strong></em>.
     </p>
     <p> I'm from Brazil and live in Recife (a city in the state of Pernambuco). I'm a Bachelor of Business Administration and postgraduate MBA in Business Administration at CEDEPE Business School.
-        My greatest talent is to see the world in different ways: <em>Creativity.</em></p>
+        My greatest talent is to see the world in different ways: <em><strong>Creativity</strong>.</em></p>
     <p>After almost 25 years dedicated to logistics and production scheduling, I have decided to change the direction of my professional life.</p>
-    <p>Today, I am a fullstack development student at <a href="www.betrybe.com.br"><em>Trybe    </em></a>.</p>
-    <hr>
-    <!-- section 2 -->
-    <h2 id="skills">Skills:</h2>
-    <ul>
-        <li><strong><em>Creativity</em></strong></li>
-        <li><strong><em>Empathy</em></strong></li>
-        <li><strong><em>Perseverance</em></strong></li>
-        <li><em>Python</em></li>
-        <li><em>JavaScript</em></li>
-    </ul>
-    <hr>
-    <!-- section 3 -->
-    <h2 id="links">Links:</h2>
-    <a href="https://www.codigofonte.com.br/" target="_blank"><p>Código Fonte</p></a>
- 
+    <p>Today, I am a fullstack development student at <a target="_blank" href="https://www.betrybe.com"><em><strong>Trybe</strong></em></a>.</p>
+    </section>
+    <!-- section Skills and Links -->
+    <section class="container">
+    <!-- div skills -->
+        <div class="wd50">
+            <h2 id="skills">Skills:</h2>
+            <ul>
+                <li><strong>Creativity</strong></li>
+                <li>Empathy</li>
+                <li>Perseverance</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    <!-- div Links -->
+    <div class="w50">
+        <h2 id="links">Links:</h2>
+        <a href="https://www.codigofonte.com.br/" target="_blank"><p>Código Fonte</p></a>
+    </div>
+</section>
 </body>
+<footer>
+<p>As I will always be an eternal student, this portfolio will always be being updated and evolving.</p>
+</footer>
 </html>
