@@ -86,8 +86,11 @@ header{
     background-color:rgba(49, 47, 47, 0.925);
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
-    font-style: normal;        
+    font-style: normal;
+    height: 100vh;
+      
 }
+
 footer{
     background-color: #f44336;
     position: fixed;
@@ -109,13 +112,13 @@ footer{
         font-family: 'Titillium Web', sans-serif;
         font-style: normal;
       }
-      .menu a:hover, a:active {
+    .menu a:hover, a:active {
         background-color: red;
         font-family: 'Titillium Web', sans-serif;
         font-style: normal;
-      }
+    }
 
-      .about{
+    .about{
         background-color: #f44336;
         font-family: 'Titillium Web', sans-serif;
         text-align: left;
@@ -128,14 +131,14 @@ footer{
         padding: 15px 10px;
     }
 
-    section.container{
+    .container{
         display: flex;
         flex-wrap: wrap;
         background-color:rgba(49, 47, 47, 0.925);
         text-align: center;
         font-family: 'Titillium Web', sans-serif;
         font-style: normal;
-           
+          
     }
     footer{
         display: flex;
