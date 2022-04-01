@@ -57,11 +57,13 @@ header{
     padding: 0 5px;
 }
 .about{
+    box-shadow: 10px 10px 5px rgba(17, 17, 17, 0.925);
     background-color: #f44336;
     font-family: 'Titillium Web', sans-serif;
     text-align: left;
     padding: 0 10px;
     min-height: fit-content;
+    
 }
 
 .about a:link, .about a:visited {
@@ -80,14 +82,35 @@ header{
     background-color: chartreuse;
     
 }
+.aboutAdjust{
+    background-color: #f44336;
+}
 .container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color:rgba(49, 47, 47, 0.925);
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
     font-style: normal;
     height: 100vh;
       
+}
+.content:hover{
+    background-color:#ffffffb0;
+    box-shadow: 10px 5px #f44336;
+    
+}
+.content{
+    margin-top: 10px;
+    height:max-content;
+    width: 98%;
+    box-shadow: 10px 10px 5px rgba(17, 17, 17, 0.925);
+    border-radius: 10px;
+    
+}
+.lists-hidden{
+    list-style-type: none;
 }
 
 .container a:link, .container a:visited {
