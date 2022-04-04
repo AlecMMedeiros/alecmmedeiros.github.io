@@ -19,51 +19,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
-<body>
-    <h1 class="title">Wellcome to my Portfolio!</h1> 
+<body>    
     <header>                
-        <div class="wd50">        
-            <img class="myphoto" src="./images/foto1.jpg" alt="Alecsandro's Photo" width="200px"></img>
-            <h1 class="name">Alecsandro Moura de Medeiros</h1>
-        </div> 
-        <div class="wd50">
-            <div class="menu">
-                <a href="#aboutme">About me</a>
-                <a href="#skills">Skills</a>
-                <a href="#links">Links</a>
-            </div>
-        </div>
-    </header>
-    <!-- section About
-    <section class="about">
-        <div>        
-            <h2 id="aboutme">About me:</h2>
-            <p>Hi there!
-            <br>
-            My name is Alecsandro, but you can call me <em><strong>Alec</strong></em>.
-            </p>
-            <p> I'm from <tag class="location">Brazil</tag> and live in <tag class="location">Recife</tag> (a city in the state of <tag class="location">Pernambuco</tag>). I'm a Bachelor of Business Administration and postgraduate MBA in Business Administration at CEDEPE Business School.
-                My greatest talent is to see the world in different ways: <em><strong>Creativity</strong>.</em></p>
-            <p>After almost 25 years dedicated to logistics and production planning, I have decided to change the direction of my professional life.</p>
-            <p>Today, I am a fullstack development student at <a id="Trybe" target="_blank" href="https://www.betrybe.com"><em><strong>Trybe</strong></em></a>.</p>
-        </div>
-    </section>
-    section About-->
-    <!-- section Skills and Links -->
+        <nav class="menu wd50">
+            <a href="#aboutme">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#links">Links</a>
+        </nav>
+    </header>  
     <section class="container">
-        <div class="content aboutAdjust">        
-            <h2 id="aboutme">About me:</h2>
+        <div class="content aboutAdjust" id="aboutme">  
+            <img class="myphoto" src="./images/foto1.jpg" alt="Alecsandro's Photo">
+            <h1 class="name">Alecsandro Moura de Medeiros</h1>      
+            <h2>About me:</h2>
             <p>Hi there!
             <br>
             My name is Alecsandro, but you can call me <em><strong>Alec</strong></em>.
             </p>
-            <p> I'm from <tag class="location">Brazil</tag> and live in <tag class="location">Recife</tag> (a city in the state of <tag class="location">Pernambuco</tag>). I'm a Bachelor of Business Administration and postgraduate MBA in Business Administration at CEDEPE Business School.
+            <p> I'm from <span class="location">Brazil</span> and live in <span class="location">Recife</span> (a city in the state of <span class="location">Pernambuco</span>). I'm a Bachelor of Business Administration and postgraduate MBA in Business Administration at CEDEPE Business School.
                 My greatest talent is to see the world in different ways: <em><strong>Creativity</strong>.</em></p>
             <p>After almost 25 years dedicated to logistics and production planning, I have decided to change the direction of my professional life.</p>
             <p>Today, I am a fullstack development student at <a id="Trybe" target="_blank" href="https://www.betrybe.com"><em><strong>Trybe</strong></em></a>.</p>
         </div>
-    <!-- div skills -->
-        <div class="content">
+            <!-- div skills -->
+        <div class="content wd33" id="skills">
             <h2>Skills:</h2>
             <ul class="lists-hidden" >
                 <li><strong>Creativity</strong></li>
@@ -73,14 +52,16 @@
                 <li>JavaScript</li>
             </ul>
         </div>
-    <!-- div Links -->
-    <div class="content">
+            <!-- div Links -->
+    <div class="content wd33">
         <h2 id="links">Links:</h2>
         <a href="https://www.codigofonte.com.br/" target="_blank"><p>Blog Código Fonte</p></a>
     </div>
 </section>
-</body>
+<div class="mobile">      
+</div>
 <footer>
 <p>As an eternal student, this portfolio will always be being updated and evolving.</p>
 </footer>
+</body>
 </html>
